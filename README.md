@@ -7,7 +7,7 @@ In this assignment, you are required to design structure and hierachy for a back
 
 You will decide to whether use class/interface/struct for each situation.
 
-## Library management system suggestions (or come with your own design)
+## Library management system suggestions (or come up with your own design)
 
 - User (consider different types of User)
 - Book
@@ -16,7 +16,7 @@ You will decide to whether use class/interface/struct for each situation.
 - Cart
 - Optional: Review
 
-## Ecommerce Website suggestions (or come with your own design)
+## Ecommerce Website suggestions (or come up with your own design)
 
 - User (consider different types of User)
 - Product
