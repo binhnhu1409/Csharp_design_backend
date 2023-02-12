@@ -3,7 +3,7 @@ namespace Models;
 public class Category 
 {
     //properties
-    public int CategoryId {get; init;}
-    public string? CategoryName {get; set;}
-    public string? ImageLink {get; set;}
+    public int ID { get; init; }
+    public string? Name { get; set; }
+    public string? Image { get; set; }
 }

@@ -1,27 +1,29 @@
 namespace Models;
 
-public enum Role {
-    User,
+public enum UserRole {
+    Customer,
     Admin
 }
 
 public class User
 {
     //properties
-    public int UserId {get; init;}
-    public string Email {get; set;}
-    public string Password {get; set;}
-    public string Name {get; set;}
-    public Role Role {get; set;}
-    //still need to deal with avatar here
+    public int ID { get; init; }
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public UserRole Role { get; set; }
+    public string Email { get; set; }
+    public string Password { get; set; }
+    
+    public string Avatar { get; set; }
 
     //constructor
-    public User(int id, string email, string password, string name, Role role)
+    public User(int id, string email, string firstName, string lastName)
     {
-        UserId = id;
+        ID = id;
         Email = email;
-        Password = password;
-        Name = name;
-        Role = role;
+        FirstName = firstName;
+        LastName = lastName;
+        Role = UserRole.Customer;
     }
 }
